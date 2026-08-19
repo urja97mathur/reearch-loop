@@ -26,7 +26,7 @@ results = tavily_client.search(
 
 query=query,
 
-search_depth=”advanced”,
+search_depth="advanced",
 
 max_results=5,
 
