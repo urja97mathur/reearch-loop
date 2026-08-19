@@ -10,9 +10,9 @@ from tavily import TavilyClient
 
 # --- Clients ---
 
-groq_client = Groq(api_key=os.environ.get(”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”))
+groq_client = Groq(api_key=os.environ.get(”GROQ_API_KEY”))
 
-tavily_client = TavilyClient(api_key=os.environ.get(”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”))
+tavily_client = TavilyClient(api_key=os.environ.get(”TAVILY_API_KEY”))
 
 MODEL = “openai/gpt-oss-120b”
 
