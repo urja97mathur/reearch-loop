@@ -36,7 +36,7 @@ include_raw_content=False
 
 formatted = []
 
-for r in results.get(”results”, []):
+for r in results.get("results", []):
 
 formatted.append(f”Source: {r[’url’]}\nTitle: {r[’title’]}\nContent: {r[’content’]}\n”)
 
