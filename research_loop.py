@@ -14,7 +14,7 @@ groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 tavily_client = TavilyClient(api_key=os.environ.get("TAVILY_API_KEY"))
 
-MODEL = “openai/gpt-oss-120b”
+MODEL = "openai/gpt-oss-120b"
 
 MAX_ROUNDS = 4
 
